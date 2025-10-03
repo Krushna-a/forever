@@ -78,6 +78,70 @@ EMAIL_APP_PASSWORD=your_email_app_password
 * **Authentication:** JWT
 * **Email Service:** Nodemailer
 
+## 💻 Installation Guide
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/yourusername/Forever-Ecommerce.git
+cd Forever-Ecommerce
+```
+
+2. **Install dependencies:**
+
+* **Backend:**
+
+```bash
+cd backend
+npm install
+```
+
+* **Admin Panel:**
+
+```bash
+cd ../Admin
+npm install
+```
+
+* **User Site:**
+
+```bash
+cd ../E-commerce
+npm install
+```
+
+3. **Configure environment variables:**
+   Create `.env` files as mentioned in the Environment Variables section for backend, admin, and user site.
+
+4. **Run the applications:**
+
+* **Backend:**
+
+```bash
+cd backend
+npm start
+```
+
+* **Admin Panel:**
+
+```bash
+cd ../Admin
+npm run dev
+```
+
+* **User Site:**
+
+```bash
+cd ../E-commerce
+npm run dev
+```
+
+5. **Access:**
+
+* User Site: `http://localhost:5173` (default Vite port)
+* Admin Panel: `http://localhost:5174` (default Vite port)
+* Backend API: `http://localhost:5000` (default Express port)
+
 ## 📊 Achievements
 
 * ✅ Developed a full-stack e-commerce platform with separate Admin & User sites.
